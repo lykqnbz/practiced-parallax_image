@@ -10,7 +10,7 @@
             .bg-attachment1{background:url(1.jpg) center center no-repeat; background-attachment:fixed;}
             .bg-attachment2{background:url(2.jpg) center center no-repeat; background-attachment:fixed;}
             .shadow{width:100%;height:400px;overflow:hidden;margin:auto;background-color: #000000;opacity: 0.6;}
-            .space{width: 100%;height: 150px;}
+            .space{width: 100%;height: 100px;}
 
         </style>
     </head>
@@ -37,13 +37,4 @@
 
         </div>
     </body>
-    <script>
-        var all=document.getElementsByClassName("space");
-        alert(screen.width+"  "+screen.height)
-        for(var i=0;i<all.length;i++){
-            if(screen.width>screen.height&&screen.width<1000){
-                all[i].style.height="50px";
-            }
-        }
-    </script>
 </html>
